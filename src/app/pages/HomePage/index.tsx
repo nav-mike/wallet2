@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { NavBar } from 'app/components/NavBar';
 import { PageWrapper } from 'app/components/PageWrapper';
+import { State } from './components/State';
 
 export function HomePage() {
   return (
@@ -15,6 +16,7 @@ export function HomePage() {
       </Helmet>
       <NavBar />
       <PageWrapper>
+        <State budget={500} charges={100} />
       </PageWrapper>
     </>
   );

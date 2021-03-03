@@ -14,5 +14,12 @@ exports[`<HomePage /> should render and match the snapshot 1`] = `
       name="Wallet2 application for budget management"
     />
   </Helmet>
+  <NavBar />
+  <PageWrapper>
+    <State
+      budget={500}
+      charges={100}
+    />
+  </PageWrapper>
 </React.Fragment>
 `;

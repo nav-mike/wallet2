@@ -7,34 +7,10 @@ Array [
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c4 {
-  font-size: 1.25rem;
-  color: rgba(58,52,51,1);
-  font-weight: bold;
-  margin-right: 1rem;
-}
-
-.c5 {
-  font-size: 0.875rem;
-  color: rgba(58,52,51,0.7);
-  font-weight: normal;
-}
-
-.c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   margin-right: -1rem;
 }
 
-.c7 {
+.c4 {
   color: rgba(215,113,88,1);
   cursor: pointer;
   -webkit-text-decoration: none;
@@ -52,15 +28,15 @@ Array [
   align-items: center;
 }
 
-.c7:hover {
+.c4:hover {
   opacity: 0.8;
 }
 
-.c7:active {
+.c4:active {
   opacity: 0.4;
 }
 
-.c7 .icon {
+.c4 .icon {
   margin-right: 0.25rem;
 }
 
@@ -114,46 +90,43 @@ Array [
     <div
       className="c1 c2"
     >
-      <div
+      <nav
         className="c3"
       >
-        <div
-          className="c4"
-        >
-          React Boilerplate
-        </div>
-        <div
-          className="c5"
-        >
-          Create React App Template
-        </div>
-      </div>
-      <nav
-        className="c6"
-      >
         <a
-          className="c7"
-          href="https://cansahin.gitbook.io/react-boilerplate-cra-template/"
-          rel="noopener noreferrer"
-          target="_blank"
-          title="Documentation Page"
+          className="c4"
+          href="/add-charge"
+          title="Add charge"
         >
-          <svg>
-            documentation-icon.svg
-          </svg>
-          Documentation
+          Add Charge
         </a>
         <a
-          className="c7"
-          href="https://github.com/react-boilerplate/react-boilerplate-cra-template"
-          rel="noopener noreferrer"
-          target="_blank"
-          title="Github Page"
+          className="c4"
+          href="/define-budget"
+          title="Define budget"
         >
-          <svg>
-            github-icon.svg
-          </svg>
-          Github
+          Define budget
+        </a>
+        <a
+          className="c4"
+          href="/my-budgets"
+          title="My Budgets"
+        >
+          My Budgets
+        </a>
+        <a
+          className="c4"
+          href="/my-charges"
+          title="My Charges"
+        >
+          My Charges
+        </a>
+        <a
+          className="c4"
+          href="/logout"
+          title="logout"
+        >
+          Logout
         </a>
       </nav>
     </div>

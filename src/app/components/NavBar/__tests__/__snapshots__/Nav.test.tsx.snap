@@ -43,27 +43,38 @@ exports[`<Nav /> should match the snapshot 1`] = `
 >
   <a
     class="c1"
-    href="https://cansahin.gitbook.io/react-boilerplate-cra-template/"
-    rel="noopener noreferrer"
-    target="_blank"
-    title="Documentation Page"
+    href="/add-charge"
+    title="Add charge"
   >
-    <svg>
-      documentation-icon.svg
-    </svg>
-    Documentation
+    Add Charge
   </a>
   <a
     class="c1"
-    href="https://github.com/react-boilerplate/react-boilerplate-cra-template"
-    rel="noopener noreferrer"
-    target="_blank"
-    title="Github Page"
+    href="/define-budget"
+    title="Define budget"
   >
-    <svg>
-      github-icon.svg
-    </svg>
-    Github
+    Define budget
+  </a>
+  <a
+    class="c1"
+    href="/my-budgets"
+    title="My Budgets"
+  >
+    My Budgets
+  </a>
+  <a
+    class="c1"
+    href="/my-charges"
+    title="My Charges"
+  >
+    My Charges
+  </a>
+  <a
+    class="c1"
+    href="/logout"
+    title="logout"
+  >
+    Logout
   </a>
 </nav>
 `;
