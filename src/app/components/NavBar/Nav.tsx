@@ -1,28 +1,23 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
-import { ReactComponent as DocumentationIcon } from './assets/documentation-icon.svg';
-import { ReactComponent as GithubIcon } from './assets/github-icon.svg';
 
 export function Nav() {
   return (
     <Wrapper>
-      <Item
-        href="https://cansahin.gitbook.io/react-boilerplate-cra-template/"
-        target="_blank"
-        title="Documentation Page"
-        rel="noopener noreferrer"
-      >
-        <DocumentationIcon />
-        Documentation
+      <Item href="/add-charge" title="Add charge">
+        Add Charge
       </Item>
-      <Item
-        href="https://github.com/react-boilerplate/react-boilerplate-cra-template"
-        target="_blank"
-        title="Github Page"
-        rel="noopener noreferrer"
-      >
-        <GithubIcon />
-        Github
+      <Item href="/define-budget" title="Define budget">
+        Define budget
+      </Item>
+      <Item href="/my-budgets" title="My Budgets">
+        My Budgets
+      </Item>
+      <Item href="/my-charges" title="My Charges">
+        My Charges
+      </Item>
+      <Item href="/logout" title="logout">
+        Logout
       </Item>
     </Wrapper>
   );
