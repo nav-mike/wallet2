@@ -1,11 +1,5 @@
 import React from 'react';
 import { VictoryPie } from 'victory';
-import styled from 'styled-components/macro';
-
-const StateDiv = styled.div`
-  display: flex;
-  justify-content: center;
-`;
 
 const chartStyles = {
   labels: {
@@ -15,7 +9,6 @@ const chartStyles = {
       return styles[t.datum.xName];
     },
   },
-  parent: { width: '30%' },
 };
 
 type StateProps = {
@@ -30,12 +23,10 @@ export function State(props: StateProps) {
     { x: 'Charges', y: charges },
   ];
   return (
-    <StateDiv>
-      <VictoryPie
-        data={data}
-        colorScale={['tomato', 'navy']}
-        style={chartStyles}
-      />
-    </StateDiv>
+    <VictoryPie
+      data={data}
+      colorScale={['tomato', 'navy']}
+      style={chartStyles}
+    />
   );
 }
