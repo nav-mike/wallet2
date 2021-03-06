@@ -47,6 +47,20 @@ exports[`<HomePage /> should render and match the snapshot 1`] = `
             ]
           }
         />
+        <ChargesTypes
+          charges={
+            Array [
+              Object {
+                "x": "Food",
+                "y": 120,
+              },
+              Object {
+                "x": "Transport",
+                "y": 55,
+              },
+            ]
+          }
+        />
       </ColumnsContainer>
     </FlexContainer>
   </PageWrapper>

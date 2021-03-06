@@ -6,6 +6,7 @@ import { State } from './components/State';
 import { FlexContainer } from './components/FlexContainer';
 import { ColumnsContainer } from './components/ColumnsContainer';
 import { ChargesHistory } from './components/ChargesHistory';
+import { ChargesTypes } from './components/ChargesTypes';
 
 export function HomePage() {
   return (
@@ -26,6 +27,12 @@ export function HomePage() {
                 { x: '03.01.2021', y: 5 },
                 { x: '04.01.2021', y: 4 },
                 { x: '05.01.2021', y: 6 },
+              ]}
+            />
+            <ChargesTypes
+              charges={[
+                { x: 'Food', y: 120 },
+                { x: 'Transport', y: 55 },
               ]}
             />
           </ColumnsContainer>
