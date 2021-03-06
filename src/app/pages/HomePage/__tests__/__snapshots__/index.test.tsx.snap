@@ -10,16 +10,45 @@ exports[`<HomePage /> should render and match the snapshot 1`] = `
       Wallet2
     </title>
     <meta
-      content="The application for budget management"
       name="Wallet2 application for budget management"
     />
   </Helmet>
   <NavBar />
   <PageWrapper>
-    <State
-      budget={500}
-      charges={100}
-    />
+    <FlexContainer>
+      <ColumnsContainer>
+        <State
+          budget={500}
+          charges={100}
+        />
+        <ChargesHistory
+          charges={
+            Array [
+              Object {
+                "x": "01.01.2021",
+                "y": 2,
+              },
+              Object {
+                "x": "02.01.2021",
+                "y": 3,
+              },
+              Object {
+                "x": "03.01.2021",
+                "y": 5,
+              },
+              Object {
+                "x": "04.01.2021",
+                "y": 4,
+              },
+              Object {
+                "x": "05.01.2021",
+                "y": 6,
+              },
+            ]
+          }
+        />
+      </ColumnsContainer>
+    </FlexContainer>
   </PageWrapper>
 </React.Fragment>
 `;
