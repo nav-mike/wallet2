@@ -7,10 +7,10 @@ exports[`<HomePage /> should render and match the snapshot 1`] = `
     encodeSpecialCharacters={true}
   >
     <title>
-      Wallet2
+      Home
     </title>
     <meta
-      name="Wallet2 application for budget management"
+      name="Home page"
     />
   </Helmet>
   <NavBar />

@@ -3,7 +3,7 @@
 exports[`<App /> should render and match the snapshot 1`] = `
 <BrowserRouter>
   <Helmet
-    defaultTitle="React Boilerplate"
+    defaultTitle="Wallet2"
     defer={true}
     encodeSpecialCharacters={true}
     htmlAttributes={
@@ -11,10 +11,10 @@ exports[`<App /> should render and match the snapshot 1`] = `
         "lang": "en-US",
       }
     }
-    titleTemplate="%s - React Boilerplate"
+    titleTemplate="%s - Wallet2"
   >
     <meta
-      content="A React Boilerplate application"
+      content="Wallet2 application for budget management"
       name="description"
     />
   </Helmet>

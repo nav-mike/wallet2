@@ -12,8 +12,8 @@ export function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Wallet2</title>
-        <meta name="Wallet2 application for budget management" />
+        <title>Home</title>
+        <meta name="Home page" />
       </Helmet>
       <NavBar />
       <PageWrapper>
