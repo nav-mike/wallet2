@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<State /> should render and match the snapshot 1`] = `
+<div
+  class="VictoryContainer"
+  style="width: 100%; height: 100%; pointer-events: none; position: relative;"
+>
+  <svg
+    height="400"
+    role="img"
+    style="pointer-events: all; width: 100%; height: 100%;"
+    viewBox="0 0 400 400"
+    width="400"
+  >
+    <g>
+      <path
+        d="M9.184850993605149e-15,-150A150,150,0,1,1,-146.23918682727356,33.37814009344718L0,0Z"
+        role="presentation"
+        shape-rendering="auto"
+        style="fill: tomato; padding: 10px; stroke: transparent; stroke-width: 1;"
+        transform="translate(200, 200)"
+      />
+      <path
+        d="M-146.23918682727356,33.37814009344718A150,150,0,0,1,-2.7554552980815446e-14,-150L0,0Z"
+        role="presentation"
+        shape-rendering="auto"
+        style="fill: navy; padding: 10px; stroke: transparent; stroke-width: 1;"
+        transform="translate(200, 200)"
+      />
+      <text
+        direction="inherit"
+        dx="0"
+        id="pie-labels-0"
+        x="333"
+        y="314.875"
+      >
+        <tspan
+          dx="0"
+          dy="0"
+          style="padding: 20px; font-size: 25px; fill: tomato; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; stroke: transparent;"
+          text-anchor="start"
+          x="333"
+        >
+          Budget
+        </tspan>
+      </text>
+      <text
+        direction="inherit"
+        dx="0"
+        id="pie-labels-1"
+        x="67"
+        y="102.875"
+      >
+        <tspan
+          dx="0"
+          dy="0"
+          style="padding: 20px; font-size: 25px; fill: navy; font-family: 'Gill Sans', 'Seravek', 'Trebuchet MS', sans-serif; letter-spacing: normal; stroke: transparent;"
+          text-anchor="end"
+          x="67"
+        >
+          Charges
+        </tspan>
+      </text>
+    </g>
+  </svg>
+  <div
+    style="z-index: 99; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"
+  >
+    <svg
+      height="400"
+      style="overflow: visible; width: 100%; height: 100%;"
+      viewBox="0 0 400 400"
+      width="400"
+    />
+  </div>
+</div>
+`;
