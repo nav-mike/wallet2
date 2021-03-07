@@ -19,6 +19,7 @@ export function HomePage() {
       <PageWrapper>
         <FlexContainer>
           <ColumnsContainer>
+            <h1>Dashboard</h1>
             <State budget={500} charges={100} />
             <ChargesHistory
               charges={[

@@ -12,6 +12,7 @@ export function AddChargePage() {
       </Helmet>
       <NavBar />
       <PageWrapper>
+        <h1>Add charge</h1>
         <form>
           <div>
             <label>Date of charge</label>
