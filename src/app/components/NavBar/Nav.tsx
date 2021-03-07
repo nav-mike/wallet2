@@ -7,6 +7,9 @@ export function Nav() {
       <Item href="/add-charge" title="Add charge">
         Add Charge
       </Item>
+      <Item href="/delete-charge" title="Delete charge">
+        Delete charge
+      </Item>
       <Item href="/define-budget" title="Define budget">
         Define budget
       </Item>
