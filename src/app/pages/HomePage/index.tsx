@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { NavBar } from 'app/components/NavBar';
 import { PageWrapper } from 'app/components/PageWrapper';
 import { State } from './components/State';
-import { FlexContainer } from './components/FlexContainer';
+import { FlexContainer } from '../../components/FlexContainer';
 import { ColumnsContainer } from './components/ColumnsContainer';
 import { ChargesHistory } from './components/ChargesHistory';
 import { ChargesTypes } from './components/ChargesTypes';
