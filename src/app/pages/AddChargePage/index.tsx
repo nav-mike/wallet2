@@ -2,6 +2,7 @@ import { NavBar } from 'app/components/NavBar';
 import { PageWrapper } from 'app/components/PageWrapper';
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import { H1 } from 'app/components/H1';
 
 export function AddChargePage() {
   return (
@@ -12,7 +13,7 @@ export function AddChargePage() {
       </Helmet>
       <NavBar />
       <PageWrapper>
-        <h1>Add charge</h1>
+        <H1>Add charge</H1>
         <form>
           <div>
             <label>Date of charge</label>

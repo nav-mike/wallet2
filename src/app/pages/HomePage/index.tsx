@@ -7,6 +7,7 @@ import { FlexContainer } from './components/FlexContainer';
 import { ColumnsContainer } from './components/ColumnsContainer';
 import { ChargesHistory } from './components/ChargesHistory';
 import { ChargesTypes } from './components/ChargesTypes';
+import { H1 } from 'app/components/H1';
 
 export function HomePage() {
   return (
@@ -19,7 +20,7 @@ export function HomePage() {
       <PageWrapper>
         <FlexContainer>
           <ColumnsContainer>
-            <h1>Dashboard</h1>
+            <H1>Dashboard</H1>
             <State budget={500} charges={100} />
             <ChargesHistory
               charges={[
