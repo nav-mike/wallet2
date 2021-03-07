@@ -12,7 +12,27 @@ export function AddChargePage() {
       </Helmet>
       <NavBar />
       <PageWrapper>
-        <div>Add charge</div>
+        <form>
+          <div>
+            <label>Date of charge</label>
+            <input type="date" />
+          </div>
+          <div>
+            <label>Value of charge</label>
+            <input type="number" min="0" />
+          </div>
+          <div>
+            <label>Type of charge</label>
+            <select>
+              <option>Food</option>
+              <option>Transport</option>
+            </select>
+          </div>
+          <div>
+            <button type="button">Submit</button>
+            <a href="/">Cancel</a>
+          </div>
+        </form>
       </PageWrapper>
     </>
   );
