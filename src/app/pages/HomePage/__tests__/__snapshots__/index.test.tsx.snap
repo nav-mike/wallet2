@@ -17,6 +17,9 @@ exports[`<HomePage /> should render and match the snapshot 1`] = `
   <PageWrapper>
     <FlexContainer>
       <ColumnsContainer>
+        <H1>
+          Dashboard
+        </H1>
         <State
           budget={500}
           charges={100}
