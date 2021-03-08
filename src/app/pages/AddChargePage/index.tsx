@@ -7,6 +7,7 @@ import { FlexContainer } from 'app/components/FlexContainer';
 import { ColumnsContainer } from 'app/components/ColumnsContainer';
 import { Label } from 'app/components/Label';
 import { FromGroup } from 'app/components/FormGroup';
+import { SubmitButton } from 'app/components/SubmitButton';
 
 export function AddChargePage() {
   return (
@@ -37,7 +38,7 @@ export function AddChargePage() {
                 </select>
               </FromGroup>
               <FromGroup>
-                <button type="button">Submit</button>
+                <SubmitButton type="button">Submit</SubmitButton>
                 <a href="/">Cancel</a>
               </FromGroup>
             </form>
