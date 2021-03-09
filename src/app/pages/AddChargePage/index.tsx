@@ -8,6 +8,7 @@ import { ColumnsContainer } from 'app/components/ColumnsContainer';
 import { Label } from 'app/components/Label';
 import { FromGroup } from 'app/components/FormGroup';
 import { SubmitButton } from 'app/components/SubmitButton';
+import { CancelButton } from 'app/components/CancelButton';
 
 export function AddChargePage() {
   return (
@@ -39,7 +40,7 @@ export function AddChargePage() {
               </FromGroup>
               <FromGroup>
                 <SubmitButton type="button">Submit</SubmitButton>
-                <a href="/">Cancel</a>
+                <CancelButton href="/">Cancel</CancelButton>
               </FromGroup>
             </form>
           </ColumnsContainer>
