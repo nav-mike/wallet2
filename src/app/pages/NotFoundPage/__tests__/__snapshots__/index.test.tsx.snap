@@ -102,6 +102,13 @@ Array [
         </a>
         <a
           className="c4"
+          href="/delete-charge"
+          title="Delete charge"
+        >
+          Delete charge
+        </a>
+        <a
+          className="c4"
           href="/define-budget"
           title="Define budget"
         >

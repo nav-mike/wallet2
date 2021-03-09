@@ -50,6 +50,13 @@ exports[`<Nav /> should match the snapshot 1`] = `
   </a>
   <a
     class="c1"
+    href="/delete-charge"
+    title="Delete charge"
+  >
+    Delete charge
+  </a>
+  <a
+    class="c1"
     href="/define-budget"
     title="Define budget"
   >
