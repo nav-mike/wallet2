@@ -9,6 +9,7 @@ import { Label } from 'app/components/Label';
 import { FromGroup } from 'app/components/FormGroup';
 import { SubmitButton } from 'app/components/SubmitButton';
 import { CancelButton } from 'app/components/CancelButton';
+import { Input } from 'app/components/Input';
 
 export function AddChargePage() {
   return (
@@ -25,11 +26,11 @@ export function AddChargePage() {
             <form>
               <FromGroup>
                 <Label>Date of charge</Label>
-                <input type="date" />
+                <Input type="date" />
               </FromGroup>
               <FromGroup>
                 <Label>Value of charge</Label>
-                <input type="number" min="0" />
+                <Input type="number" min="0" />
               </FromGroup>
               <FromGroup>
                 <Label>Type of charge</Label>
