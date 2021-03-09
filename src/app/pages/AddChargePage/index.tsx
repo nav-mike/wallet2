@@ -10,6 +10,7 @@ import { FromGroup } from 'app/components/FormGroup';
 import { SubmitButton } from 'app/components/SubmitButton';
 import { CancelButton } from 'app/components/CancelButton';
 import { Input } from 'app/components/Input';
+import { Select } from 'app/components/Select';
 
 export function AddChargePage() {
   return (
@@ -34,10 +35,10 @@ export function AddChargePage() {
               </FromGroup>
               <FromGroup>
                 <Label>Type of charge</Label>
-                <select>
+                <Select>
                   <option>Food</option>
                   <option>Transport</option>
-                </select>
+                </Select>
               </FromGroup>
               <FromGroup>
                 <SubmitButton type="button">Submit</SubmitButton>
