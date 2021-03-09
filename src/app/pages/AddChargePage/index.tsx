@@ -11,6 +11,9 @@ import { SubmitButton } from 'app/components/SubmitButton';
 import { CancelButton } from 'app/components/CancelButton';
 import { Input } from 'app/components/Input';
 import { Select } from 'app/components/Select';
+import styles from './AddChargePage.module.css';
+
+const classes = `${styles['left-space']} ${styles['size-12-rem']}`;
 
 export function AddChargePage() {
   return (
@@ -27,15 +30,15 @@ export function AddChargePage() {
             <form>
               <FromGroup>
                 <Label>Date of charge</Label>
-                <Input type="date" />
+                <Input type="date" className={classes} />
               </FromGroup>
               <FromGroup>
                 <Label>Value of charge</Label>
-                <Input type="number" min="0" />
+                <Input type="number" min="0" className={classes} />
               </FromGroup>
               <FromGroup>
                 <Label>Type of charge</Label>
-                <Select>
+                <Select className={classes}>
                   <option>Food</option>
                   <option>Transport</option>
                 </Select>
