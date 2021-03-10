@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddChargePage /> should render and match the snapshot 1`] = `
+<React.Fragment>
+  <Helmet
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      Add charge
+    </title>
+    <meta
+      name="Add charge page"
+    />
+  </Helmet>
+  <NavBar />
+  <PageWrapper>
+    <FlexContainer>
+      <ColumnsContainer>
+        <H1>
+          Add charge
+        </H1>
+        <form>
+          <FormGroup__FromGroup>
+            <Label>
+              Date of charge
+            </Label>
+            <Input
+              className="left-space size-12-rem"
+              type="date"
+            />
+          </FormGroup__FromGroup>
+          <FormGroup__FromGroup>
+            <Label>
+              Value of charge
+            </Label>
+            <Input
+              className="left-space size-12-rem"
+              min="0"
+              type="number"
+            />
+          </FormGroup__FromGroup>
+          <FormGroup__FromGroup>
+            <Label>
+              Type of charge
+            </Label>
+            <Select
+              className="left-space size-12-rem"
+            >
+              <option>
+                Food
+              </option>
+              <option>
+                Transport
+              </option>
+            </Select>
+          </FormGroup__FromGroup>
+          <FormGroup__FromGroup>
+            <SubmitButton
+              type="button"
+            >
+              Submit
+            </SubmitButton>
+            <CancelButton
+              href="/"
+            >
+              Cancel
+            </CancelButton>
+          </FormGroup__FromGroup>
+        </form>
+      </ColumnsContainer>
+    </FlexContainer>
+  </PageWrapper>
+</React.Fragment>
+`;
