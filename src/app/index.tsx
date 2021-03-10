@@ -16,6 +16,9 @@ import { HomePage } from './pages/HomePage/Loadable';
 import { NotFoundPage } from './pages/NotFoundPage/Loadable';
 import { useTranslation } from 'react-i18next';
 import { AddChargePage } from './pages/AddChargePage';
+import { DeleteChargePage } from './pages/DeleteChargePage';
+
+const url = (path: string) => process.env.PUBLIC_URL + path;
 
 export function App() {
   const { i18n } = useTranslation();
@@ -33,11 +36,9 @@ export function App() {
       </Helmet>
 
       <Switch>
-        <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage} />
-        <Route
-          path={process.env.PUBLIC_URL + '/add-charge'}
-          component={AddChargePage}
-        />
+        <Route exact path={url('/')} component={HomePage} />
+        <Route path={url('/add-charge')} component={AddChargePage} />
+        <Route path={url('/delete-charge')} component={DeleteChargePage} />
         <Route component={NotFoundPage} />
       </Switch>
       <GlobalStyle />
