@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Select /> should be render and match the snapshot 1`] = `
+.c0 {
+  border: 1px solid rgba(220,120,95,1);
+  border-radius: 0.3rem;
+  padding: 0.2rem;
+}
+
+<select
+  class="c0"
+/>
+`;
