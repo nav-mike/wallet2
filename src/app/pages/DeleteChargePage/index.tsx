@@ -6,6 +6,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { H1 } from 'app/components/H1';
 import { ChargesTable } from './components/ChargesTable';
+import { SearchForm } from './components/SearchForm';
 
 export function DeleteChargePage() {
   const data = [
@@ -22,6 +23,7 @@ export function DeleteChargePage() {
         <FlexContainer>
           <ColumnsContainer>
             <H1>Delete charge</H1>
+            <SearchForm />
             <ChargesTable charges={data} />
           </ColumnsContainer>
         </FlexContainer>
