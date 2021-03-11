@@ -11,6 +11,11 @@ exports[`<SubmitButton /> should be render and match the snapshot 1`] = `
   min-height: 2rem;
 }
 
+.c0:hover {
+  cursor: pointer;
+  background-color: #fab9a9;
+}
+
 <button
   class="c0"
 />

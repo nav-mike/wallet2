@@ -30,6 +30,10 @@ exports[`<App /> should render and match the snapshot 1`] = `
     />
     <Route
       component={[Function]}
+      path="/delete-charge"
+    />
+    <Route
+      component={[Function]}
     />
   </Switch>
   <Memo(GlobalStyleComponent) />
