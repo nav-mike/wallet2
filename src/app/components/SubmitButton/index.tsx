@@ -6,4 +6,8 @@ export const SubmitButton = styled.button`
   border: 1px solid rgba(220, 120, 95, 1);
   border-radius: 0.5rem;
   min-height: 2rem;
+  &:hover {
+    cursor: pointer;
+    background-color: #fab9a9;
+  }
 `;

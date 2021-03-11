@@ -1,0 +1,5 @@
+.charge-table__table-component td, th {
+  border: 1px solid tomato;
+  padding: 1rem;
+  color: tomato;
+}
