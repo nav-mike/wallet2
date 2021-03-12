@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeleteChargePage /> should render and match the snapshot 1`] = `
+<React.Fragment>
+  <Helmet
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      Delete charge
+    </title>
+    <meta
+      name="Delete charge page"
+    />
+  </Helmet>
+  <NavBar />
+  <PageWrapper>
+    <FlexContainer>
+      <ColumnsContainer>
+        <H1>
+          Delete charge
+        </H1>
+        <SearchForm />
+        <ChargesTable
+          charges={
+            Array [
+              Object {
+                "date": 2021-03-12T17:31:31.597Z,
+                "id": "123-456-789",
+                "type": "food",
+                "value": 12.23,
+              },
+            ]
+          }
+        />
+      </ColumnsContainer>
+    </FlexContainer>
+  </PageWrapper>
+</React.Fragment>
+`;

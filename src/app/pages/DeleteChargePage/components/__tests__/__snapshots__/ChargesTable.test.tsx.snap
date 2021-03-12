@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChargesTable /> should render and match the snapshot 1`] = `
+.c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: rgba(220,120,95,1);
+  border: 1px solid rgba(220,120,95,1);
+  border-radius: 0.5rem;
+  min-height: 2rem;
+}
+
+.c0:hover {
+  cursor: pointer;
+  background-color: #fab9a9;
+}
+
+<table
+  class="charge-table__table-component"
+>
+  <thead>
+    <tr>
+      <th>
+        Date
+      </th>
+      <th>
+        Value
+      </th>
+      <th>
+        Type
+      </th>
+      <th />
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        3/12/2021
+      </td>
+      <td>
+        120
+      </td>
+      <td>
+        food
+      </td>
+      <td>
+        <button
+          class="c0"
+        >
+          Delete
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
