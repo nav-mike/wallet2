@@ -18,6 +18,7 @@ import { useTranslation } from 'react-i18next';
 import { AddChargePage } from './pages/AddChargePage';
 import { DeleteChargePage } from './pages/DeleteChargePage';
 import { DefineBudgetPage } from './pages/DefineBudgetPage';
+import { MyBudgetsPage } from './pages/MyBudgetsPage';
 
 const url = (path: string) => process.env.PUBLIC_URL + path;
 
@@ -41,6 +42,7 @@ export function App() {
         <Route path={url('/add-charge')} component={AddChargePage} />
         <Route path={url('/delete-charge')} component={DeleteChargePage} />
         <Route path={url('/define-budget')} component={DefineBudgetPage} />
+        <Route path={url('/my-budgets')} component={MyBudgetsPage} />
         <Route component={NotFoundPage} />
       </Switch>
       <GlobalStyle />
