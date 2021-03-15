@@ -1,16 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<AddChargePage /> should render and match the snapshot 1`] = `
+exports[`<DefineBudgetPage /> should render and match the snapshot 1`] = `
 <React.Fragment>
   <Helmet
     defer={true}
     encodeSpecialCharacters={true}
   >
     <title>
-      Add charge
+      Define budget
     </title>
     <meta
-      name="Add charge page"
+      name="Define budget page"
     />
   </Helmet>
   <NavBar />
@@ -18,42 +18,24 @@ exports[`<AddChargePage /> should render and match the snapshot 1`] = `
     <FlexContainer>
       <ColumnsContainer>
         <H1>
-          Add charge
+          Define budget
         </H1>
         <form>
           <FormGroup>
             <Label>
-              Date of charge
+              Current budget value is 
+              500
+               EUR
             </Label>
-            <Input
-              className="left-space size-12-rem"
-              type="date"
-            />
           </FormGroup>
           <FormGroup>
             <Label>
-              Value of charge
+              Budget value
             </Label>
             <Input
-              className="left-space size-12-rem"
               min="0"
               type="number"
             />
-          </FormGroup>
-          <FormGroup>
-            <Label>
-              Type of charge
-            </Label>
-            <Select
-              className="left-space size-12-rem"
-            >
-              <option>
-                Food
-              </option>
-              <option>
-                Transport
-              </option>
-            </Select>
           </FormGroup>
           <FormGroup>
             <SubmitButton

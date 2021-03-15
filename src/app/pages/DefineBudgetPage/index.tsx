@@ -1,7 +1,7 @@
 import { CancelButton } from 'app/components/CancelButton';
 import { ColumnsContainer } from 'app/components/ColumnsContainer';
 import { FlexContainer } from 'app/components/FlexContainer';
-import { FromGroup } from 'app/components/FormGroup';
+import { FormGroup } from 'app/components/FormGroup';
 import { H1 } from 'app/components/H1';
 import { Input } from 'app/components/Input';
 import { Label } from 'app/components/Label';
@@ -12,6 +12,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
 export const DefineBudgetPage = () => {
+  const budget = 500;
   return (
     <>
       <Helmet>
@@ -24,14 +25,17 @@ export const DefineBudgetPage = () => {
           <ColumnsContainer>
             <H1>Define budget</H1>
             <form>
-              <FromGroup>
+              <FormGroup>
+                <Label>Current budget value is {budget} EUR</Label>
+              </FormGroup>
+              <FormGroup>
                 <Label>Budget value</Label>
                 <Input type="number" min="0" />
-              </FromGroup>
-              <FromGroup>
+              </FormGroup>
+              <FormGroup>
                 <SubmitButton type="button">Submit</SubmitButton>
                 <CancelButton href="/">Cancel</CancelButton>
-              </FromGroup>
+              </FormGroup>
             </form>
           </ColumnsContainer>
         </FlexContainer>

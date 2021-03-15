@@ -6,7 +6,7 @@ import { H1 } from 'app/components/H1';
 import { FlexContainer } from 'app/components/FlexContainer';
 import { ColumnsContainer } from 'app/components/ColumnsContainer';
 import { Label } from 'app/components/Label';
-import { FromGroup } from 'app/components/FormGroup';
+import { FormGroup } from 'app/components/FormGroup';
 import { SubmitButton } from 'app/components/SubmitButton';
 import { CancelButton } from 'app/components/CancelButton';
 import { Input } from 'app/components/Input';
@@ -28,25 +28,25 @@ export function AddChargePage() {
           <ColumnsContainer>
             <H1>Add charge</H1>
             <form>
-              <FromGroup>
+              <FormGroup>
                 <Label>Date of charge</Label>
                 <Input type="date" className={classes} />
-              </FromGroup>
-              <FromGroup>
+              </FormGroup>
+              <FormGroup>
                 <Label>Value of charge</Label>
                 <Input type="number" min="0" className={classes} />
-              </FromGroup>
-              <FromGroup>
+              </FormGroup>
+              <FormGroup>
                 <Label>Type of charge</Label>
                 <Select className={classes}>
                   <option>Food</option>
                   <option>Transport</option>
                 </Select>
-              </FromGroup>
-              <FromGroup>
+              </FormGroup>
+              <FormGroup>
                 <SubmitButton type="button">Submit</SubmitButton>
                 <CancelButton href="/">Cancel</CancelButton>
-              </FromGroup>
+              </FormGroup>
             </form>
           </ColumnsContainer>
         </FlexContainer>
