@@ -1,4 +1,6 @@
 import React from 'react';
+import { MyBudgetsTableHeader } from './MyBudgetsTableHeader';
+import styles from './MyBudgetsTable.module.css';
 
 export interface IBudget {
   month: string;
@@ -12,8 +14,8 @@ export interface IMyBudgetsTableProps {
 
 export const MyBudgetsTable = (props: IMyBudgetsTableProps) => {
   return (
-    <table>
-      <thead></thead>
+    <table className={styles['my-budget__table-component']}>
+      <MyBudgetsTableHeader />
     </table>
   );
 };
