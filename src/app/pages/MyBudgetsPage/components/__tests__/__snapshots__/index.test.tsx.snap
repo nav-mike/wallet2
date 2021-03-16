@@ -1,16 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<DeleteChargePage /> should render and match the snapshot 1`] = `
+exports[`<MyBudgetsPage /> should render and match the snapshot 1`] = `
 <React.Fragment>
   <Helmet
     defer={true}
     encodeSpecialCharacters={true}
   >
     <title>
-      Delete charge
+      My budgets
     </title>
     <meta
-      name="Delete charge page"
+      name="My budgets"
     />
   </Helmet>
   <NavBar />
@@ -18,17 +18,20 @@ exports[`<DeleteChargePage /> should render and match the snapshot 1`] = `
     <FlexContainer>
       <ColumnsContainer>
         <H1>
-          Delete charge
+          My budgets
         </H1>
-        <SearchForm />
-        <ChargesTable
-          charges={
+        <MyBudgetsTable
+          budgets={
             Array [
               Object {
-                "date": 2021-03-16T13:26:07.538Z,
-                "id": "123-456-789",
-                "type": "food",
-                "value": 12.23,
+                "month": "January",
+                "value": 500,
+                "year": 2021,
+              },
+              Object {
+                "month": "February",
+                "value": 500,
+                "year": 2021,
               },
             ]
           }

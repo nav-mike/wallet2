@@ -19,7 +19,7 @@ exports[`<ChargesTableRows /> should render and match the snapshot 1`] = `
 <tbody>
   <tr>
     <td>
-      3/12/2021
+      3/16/2021
     </td>
     <td>
       120.21

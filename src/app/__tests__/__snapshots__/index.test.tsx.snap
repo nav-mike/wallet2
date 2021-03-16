@@ -38,6 +38,10 @@ exports[`<App /> should render and match the snapshot 1`] = `
     />
     <Route
       component={[Function]}
+      path="/my-budgets"
+    />
+    <Route
+      component={[Function]}
     />
   </Switch>
   <Memo(GlobalStyleComponent) />
