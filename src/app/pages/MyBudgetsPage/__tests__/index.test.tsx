@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { createRenderer } from 'react-test-renderer/shallow';
-import { MyBudgetsPage } from '../..';
+import { MyBudgetsPage } from '..';
 
 const shallowRenderer = createRenderer();
 
