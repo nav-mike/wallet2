@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MyBudgetsTableRows /> should render and match the snapshot 1`] = `
+<tbody>
+  <tr>
+    <td>
+      2021
+    </td>
+    <td>
+      January
+    </td>
+    <td>
+      500
+    </td>
+  </tr>
+  <tr>
+    <td>
+      2021
+    </td>
+    <td>
+      February
+    </td>
+    <td>
+      500
+    </td>
+  </tr>
+</tbody>
+`;

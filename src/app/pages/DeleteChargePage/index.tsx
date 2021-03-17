@@ -10,7 +10,12 @@ import { SearchForm } from './components/SearchForm';
 
 export function DeleteChargePage() {
   const data = [
-    { date: new Date(), value: 12.23, type: 'food', id: '123-456-789' },
+    {
+      date: new Date('1995-12-17T03:24:00'),
+      value: 12.23,
+      type: 'food',
+      id: '123-456-789',
+    },
   ];
   return (
     <>
